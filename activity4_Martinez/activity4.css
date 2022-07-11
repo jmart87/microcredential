@@ -1,0 +1,4 @@
+.animation_container{width: 80%; margin: auto; margin-bottom: 2em; position: relative;}
+.mountain{width: 100%}
+.star{width: 25%; position: absolute; bottom: -40%; right: -20%; animation-name: moveStar; animation-duration: 2s; animation-iteration-count: 2; animation-delay: 1s; animation-fill-mode: forwards; animation-direction: alternate; animation-timing-function: ease-in-out;}
+@keyframes moveStar {from{transform: translateX(0%); to{transform: translateX(20%%);}
