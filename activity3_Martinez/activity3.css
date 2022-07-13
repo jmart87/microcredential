@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+*{box-sizing: border-box;}
 .title{font-family: elephant; font-size: 300%;text-align: center;}
 .intro{font-size: 50px; text-align: justify;}
 .subtitle{font-size: 0.8em; text-align: right;}
@@ -38,18 +38,28 @@
 .contact1, .contact2, .contact3{width: 30% float: left; margin-left: 3%; padding: 1em 2em;}
 /* ---------ACTIVITY 3--------- */
 .tech{background-color: black; font-size: 400%; text-align: center; padding: 15px 0px; text-shadow: 2px 2px 5px blue; width: auto; box-shadow: 2px 2px 5px white; color: yellow;}
-.img1, .img2, .img3{width: 29%; margin: 2%;}
-.img1{filter: invert(90%);}
-.img2{filter: blur(4px);}
-.img3{background-image: linear-gradient(red, blue);}
-.message{
- position: absolute;
- top: 10%;
- left: 20%;
- width: 60%;
- background-color: rgba(0, 0, 0, 0.3);
- color: white;
- text-align: center;
- padding: 10px;
- font-size: 20px;
-}
+.r1{display: flex;}
+.picture1, .picture2, .picture3{flex: 33.33%; margin: 0em;}
+.picture1{background-image: url("images/img1.jpg");
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: 90% 100%;
+ height: 1000px;
+ position: relative;
+ filter: invert(90%);}
+ .picture2{background-image: url("images/img2.jpg");
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: 90% 100%;
+ height: 1000px;
+ position: relative;
+ filter: blur(3px);}
+.picture3{background-image: url("images/img3.jpg");
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: 90% 100%;
+ height: 1000px;
+ position: relative;}
+.msg1{position: absolute; border: ridge; top: 50%; left: 15%; width: 70%; color: white; text-align: center;}
+.msg2{position: absolute; top: 50%; left: 15%; width: 70%; color: black; text-align: auto;}
+.msg3{position: absolute; top: 50%; left: 15%; width: 70%; color: white; text-align: auto;}
