@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Activity 5 - Jessie Martinez</title>
+  </head>
+  <body>
+    <h1>Jessie Martinez: Activity 5</h1>
+    <script type="text/javascript">
+      /*
+      let number1 = 56;
+      let number2 = -80;
+      let number3 = 3/4;
+      let boolean1 = true;
+
+      let color = "beige";
+      let msg = "Hello World!";
+
+      console.log(number2);
+      console.log("Good evening!");
+      console.log("The color is: "+color);
+      console.log(`The color is: ${color}`);
+
+      // let name = prompt("Enter a name: ", "WHERE AM I?")
+      /*
+      multiple lines comments
+
+
+      let num1 = prompt("Enter number 1: ");
+      num1 = parseInt(num1);
+      let num2 = parseInt(prompt("Enter number 2: "));
+      let summation = num1+num2;
+
+      // STRINGS
+      let name = "Will Smith";
+      let nameLength = name.length;
+      let upperName = name.toUpperCase();
+      let lowerName = name.toLowerCase();
+      let newName = name.slice(2,8);
+
+      // ARRAYS
+      let everything =[-23, 'color', true, "Peter Pan", 88];
+      let copyArray = everything;
+      let sliceArray = everything.slice();
+      */
+
+      console.log(" ======== ACTIVITY 5.1: variables and prompt method ======== ")
+
+      let name = prompt("Enter your name: ");
+      let num = prompt("Enter your lucky number: ");
+
+      let word = prompt("Enter a word: ");
+      let wordLength = word.length;
+      let upperWord = word.toUpperCase();
+      newWord = word.slice(-2);
+      let num2 = prompt("Enter a negative number: ");
+      let animal = prompt("Enter an animal: ");
+
+      console.log("a) Welcome to the program "+name,". Your lucky number is "+num);
+      console.log(`b) Good Morning ${name}`,`. Your entered number: ${num}`);
+
+      console.log(" ======== ACTIVITY 5.2: string and string method ======== ");
+      console.log("a)The second letter of the word is: "+word[1]);
+      console.log("b)The length of word "+word,"is "+wordLength);
+      console.log("c) Uppercase: "+upperWord);
+      console.log("d)The last two characters of the word "+word, "is "+newWord);
+
+      console.log(" ======== ACTIVITY 5.3: array and array method ======== ");
+      let stuff =[74, 'purple', false, "Iron Man", 41];
+      console.log("a) Mixed array with initial values: "+stuff);
+      stuff.push(+animal);
+      console.log(`b) Mixed array with a new animal added to the end: ${stuff}`);
+      stuff.unshift(+num2);
+      console.log("c) Mixed array with a new NEGATIVE NUMBER added to the front, beginning, of the array: "+stuff);
+      let copyArray = stuff;
+      let rcopyArray = copyArray.reverse();
+      console.log(`d) Mixed array ${stuff} and reverse of copy array: ${rcopyArray}`);
+
+    </script>
+  </body>
+</html>
